@@ -1,22 +1,168 @@
-.App {
-  text-align: center;
+@media only screen and (max-width: 545px){
+    .benefitscontent p{
+        text-align: left !important;
+    }
+}
+body{
+    color: #252C32;
 }
 
-.App-logo {
-  height: 40vmin;
+nav{
+    height: 112px;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252C32 !important;
+    background-color: white;
+    letter-spacing: 0.5px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link{
+    color: #252C32 !important;
+    padding: 10px;
 }
+nav .prices{
+    padding-right: 25px !important;
+}
+nav .btn, .videocontent .btn, .tariffscontent .btn{
+    background-color: #EEC643;
+    border-radius: 8px;
+    color: white !important;
+    font-weight: bold !important;
+    
+}
+nav .signin{
+    color:#EEC643 !important;
+}
+.navbar-brand img{
+    max-width: 117px;
+}
+.videocontent { padding-top: 60px; }
+.videocontent a {
+    text-align: center;
+    box-sizing: content-box;
+}
+.videocontent_p{
+    font-size: 22px;
+    line-height: 28px;
+}
+.videocontent title{
+    font-size: 22px;
+    line-height: 25px;
+}
+.videocontent{
+    margin-top:10px;
+}
+.videocontent .embed-responsive{
+    position: static !important;
+}
+.benefitscontent, .tariffscontent{
+    margin-top: 75px;
+}
+.imagecontent{
+    margin-top:75px;
+}
+.benefitscontent .content_p{
+    max-width: 570px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+}
+.benefitscontent h4{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+.imagecontent p{
+    font-size: 22px;
+    line-height: 28px;
+}
+.content_p{
+    text-align: center;
+    margin:0 auto;
+}
+.content_d{
+    margin:0 auto;
+    max-width: 570px;
+}
+.imagecontent ul { 
+    list-style-type: none;
+    list-style-image: url('/icon_check.svg');
+    margin-top: 25px;
+}
+.imagecontent ul li{
+    padding-top: 15px;      
+}
+.videocontent .content_d p{
+    font-size: 20px;
+}
+.videocontent .content_d a{
+    font-size: 20px;
+}
+.text_h1{
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 80px;
+    color: #252C32;
+}
+.tariffscontent ul{
+    list-style-type: none;
+    list-style-image: url('/check.svg');
+}
+.tariffscontent ul li{
+    padding-bottom: 15px;
+}
+.tariffscontent .light li:nth-last-child(-n+2) {list-style-image: url('/cross.svg');color: rgba(37, 44, 50, 0.2);}
+.tariffscontent .standart li:last-child {list-style-image: url('/cross.svg');color: rgba(37, 44, 50, 0.2);}
 
-.App-link {
-  color: #09d3ac;
+.card-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 41px;
+    letter-spacing: 0.735294px;
+}
+small{
+    font-size: 17px;
+    line-height: 22px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.economy_p{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #3EC25F;
+}
+.footer{
+    font-size: 14px;
+    line-height: 18px;
+}
+.card{
+    border: 1px solid rgba(37, 44, 50, 0.1);
+    border-radius: 8px;
+    transition-duration: 0.6s;
+}
+.card:hover{
+    background: rgba(255, 255, 255, 0.0001);
+    box-shadow: 0px 2px 10px rgba(37, 44, 50, 0.1);
+    background-color: #eaeaeb;
+    background-image: url('/box-header.svg');
+    background-repeat: no-repeat;
+}
+.bonus_h{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+}
+.bonus_p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(37, 44, 50, 0.6);
 }
