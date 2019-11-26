@@ -3,6 +3,17 @@
         text-align: left !important;
     }
 }
+@media only screen and (max-width: 775px){
+    .trustcontent img{
+        padding-bottom: 15px;
+    }
+    .trustcontent .col-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 body{
     color: #252C32;
 }
@@ -56,11 +67,8 @@ nav .signin{
 .videocontent .embed-responsive{
     position: static !important;
 }
-.benefitscontent, .tariffscontent{
+.benefitscontent, .tariffscontent, .imagecontent{
     margin-top: 75px;
-}
-.imagecontent{
-    margin-top:75px;
 }
 .benefitscontent .content_p{
     max-width: 570px;
@@ -165,4 +173,16 @@ small{
     line-height: 20px;
     text-align: center;
     color: rgba(37, 44, 50, 0.6);
+}
+.bonus_p2{
+    font-size: 34px;
+    line-height: 41px;
+}
+.trustcontent{
+    text-align: center;
+    margin-top:105px;
+}
+.col_img{
+    padding: 0px;
+    width:170px;
 }

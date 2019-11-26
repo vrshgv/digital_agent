@@ -27,6 +27,27 @@ class Bonuses extends React.Component{
                             <p className='bonus_p text-wrap'>Разработка дизайна нашими специалистами и распечатка ролл апов, стендов и иной рекламной продукции Digital Agent.</p>
                             </div>
                         </div>
+                        <div className='row text-center trustcontent'>
+                            <div className='col text-center'>
+                            <p className='bonus_p2'>Нам доверяют</p>
+                            </div>
+                        </div>
+                        <div className='row mt-4 mx-auto'>
+                            <div className='col col_img d-flex justify-content-center'>
+                                <img className='img-fluid pr-5' src='/pavlodar.svg' />
+                                <img className='img-fluid pr-5' src='/tson.svg' />
+                                <img className='img-fluid pr-5' src='/pavlodar.svg' />
+                                <img className='img-fluid pr-5' src='/tson.svg' />
+                            </div>
+                        </div>
+                        <div className='row mt-4 mx-auto'>
+                            <div className='col col_img d-flex justify-content-center'>
+                                <img className='img-fluid pr-5' src='/pavlodar.svg' />
+                                <img className='img-fluid pr-5' src='/tson.svg' />
+                                <img className='img-fluid pr-5' src='/pavlodar.svg' />
+                                <img className='img-fluid pr-5' src='/tson.svg' />
+                            </div>
+                        </div>
             </div>
         );
     }
