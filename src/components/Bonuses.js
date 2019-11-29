@@ -35,8 +35,8 @@ class Bonuses extends React.Component{
                         <div className='row trustimg mt-4 mx-auto'>
                             <div className='col col_img d-flex justify-content-center'>
                                 <img className='img img-fluid pr-5' src='/adgs.svg' />
-                                <img className='img img-fluid pr-5' src='/mts.svg' />
-                                <img className='img img-fluid pr-5' src='/min.svg' />
+                                <img className='img img-fluid pr-5' src='/min.png' />
+                                <img className='img img-fluid pr-5' src='/mts.png' />
                                 <img className='img img-fluid pr-5' src='/sud.svg' />
                             </div>
                         </div>
