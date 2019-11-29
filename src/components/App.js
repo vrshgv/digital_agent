@@ -5,18 +5,24 @@ import Benefits from './Benefits';
 import ImageContent from './ImageContent';
 import Tariffs from './Tariffs';
 import Bonuses from './Bonuses';
+import Begin from './Begin';
+import Form from './Form';
+import Footer from './Footer';
 
 class App extends React.Component{
 
     render(){
         return(
-        <div className='container-fluid'>
+        <div className='container-fluid px-0'>
             <NavBar />
             <VideoContent />
             <Benefits />
             <ImageContent />
             <Tariffs />
             <Bonuses />
+            <Begin />
+            <Form />
+            <Footer />
         </div>
         );
     }
