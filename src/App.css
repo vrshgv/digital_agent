@@ -28,6 +28,11 @@
         font-size: 45px !important;
     }
 }
+@media only screen and (max-width:698px){
+    .formcontent ul li{
+        padding-left: 10px !important;
+    }
+}
 @media only screen and (max-width:1109px){
     .text_h1_b{
         float: right;
@@ -422,7 +427,18 @@ footer .first-d{
     width: 59px;
     height: 24px;
   }
-  
+  .cover{
+    background: #eeeeef !important;
+    position: absolute;
+    top: 0px;
+    height: 9rem;
+    margin-top: 34rem;
+    width: 30rem;
+    z-index: 999999;    
+  }
+  .covered{
+    position: relative;
+  }
   /* Hide default HTML checkbox */
   .toggle-content .switch input {display:none;}
   

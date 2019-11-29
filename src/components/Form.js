@@ -43,6 +43,7 @@ class Form extends React.Component{
                         </div>
                     </div>
                     <div className='col-md-4 col-form'>
+                      <div className='cover'></div>
                        {/*} 
                                                <p className='form_title'>Оставьте заявку<br />чтобы наш менеджер<br />связался с вами</p>
 <form onSubmit={this.handleSubmit}>
@@ -61,7 +62,7 @@ class Form extends React.Component{
 
                             <button type="submit" class="btn w-100 mt-4">Оставить заявку</button>
         </form> */}
-<div class="powr-form-builder" id="0c1ea9c5_1575006467"></div>
+<div class="powr-form-builder covered" id="0c1ea9c5_1575006467"></div>
                     </div>
                 </div>
             </div>

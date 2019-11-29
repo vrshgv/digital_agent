@@ -17,11 +17,12 @@ import React from 'react';
                                 </div>
                                 </div>
                              <div className="col-md-6 col-lg-7 pr-0 mr-0">
+                                 {/*
                                 <div className='wrapper'>
                                 <div class="embed-responsive px-0 mx-0 embed-responsive-16by9">
                                     <iframe class="pl-7 embed-responsive-item" src="http://player.vimeo.com/video/7396421?autoplay=1&loop=1&autopause=0&muted=1" width="853" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen ></iframe>
                                 </div>
-                                </div>
+                                 </div> */}
                             </div>
                     
                 </div>
