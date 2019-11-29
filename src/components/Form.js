@@ -1,32 +1,32 @@
 import React from 'react';
 import axios from 'axios';
 class Form extends React.Component{
-    state={name:'', company:'', phoneOrEmail:''};
+   // state={name:'', company:'', phoneOrEmail:''};
 
-      handleChange1 = event => {
-        this.setState({ name: event.target.value });
-      }
-      handleChange2 = event => {
-        this.setState({ company: event.target.value });
-      }
-      handleChange3 = event => {
-        this.setState({ phoneOrEmail: event.target.value });
-      }
-      handleSubmit = event => {
-        event.preventDefault();
+      // handleChange1 = event => {
+      //   this.setState({ name: event.target.value });
+      // }
+      // handleChange2 = event => {
+      //   this.setState({ company: event.target.value });
+      // }
+      // handleChange3 = event => {
+      //   this.setState({ phoneOrEmail: event.target.value });
+      // }
+      // handleSubmit = event => {
+      //   event.preventDefault();
     
-        const user = {
-          name: this.state.name,
-          company:this.state.company,
-          phoneOrEmail:this.state.phoneOrEmail
-        };
+      //   const user = {
+      //     name: this.state.name,
+      //     company:this.state.company,
+      //     phoneOrEmail:this.state.phoneOrEmail
+      //   };
     
-        axios.post(`https://example.com`, { user })
-          .then(res => {
-            console.log(res);
-            console.log(res.data);
-          })
-      }
+      //   axios.post(`https://example.com`, { user })
+      //     .then(res => {
+      //       console.log(res);
+      //       console.log(res.data);
+      //     })
+      // } 
     render(){
         return(
             <div className='container-fluid px-0 formcontent'>

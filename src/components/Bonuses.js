@@ -34,18 +34,18 @@ class Bonuses extends React.Component{
                         </div>
                         <div className='row trustimg mt-4 mx-auto'>
                             <div className='col col_img d-flex justify-content-center'>
-                                <img className='img img-fluid pr-5' src='/adgs.svg' />
-                                <img className='img img-fluid pr-5' src='/min.png' />
-                                <img className='img img-fluid pr-5' src='/mts.png' />
-                                <img className='img img-fluid pr-5' src='/sud.svg' />
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/adgs.svg' /></div>
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/min.png' /></div>
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/mts.png' /></div>
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/sud.svg' /></div>
                             </div>
                         </div>
                         <div className='row mt-4 mx-auto'>
                             <div className='col col_img d-flex justify-content-center'>
-                                <img className='img img-fluid pr-5' src='/aktobe.svg' />
-                                <img className='img img-fluid pr-5' src='/pavlodar.svg' />
-                                <img className='img img-fluid pr-5' src='/atam.svg' />
-                                <img className='img img-fluid pr-5' src='/tson.svg' />
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/aktobe.svg' /></div>
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/pavlodar.svg' /></div>
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/atam.svg' /></div>
+                                <div className='img_d pr-5'><img className='img img-fluid' src='/tson.svg' /></div>
                             </div>
                         </div>
             </div>
