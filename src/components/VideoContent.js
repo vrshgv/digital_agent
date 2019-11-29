@@ -9,7 +9,7 @@ import React from 'react';
                 <div className='row'>
                             <div className="col-md-6 col-lg-5">
                                 <div className='content_d pl-7 text-left'>
-                                    <p className='mb-3 title'>Digital Agent <span><b>PRO</b></span></p>
+                                    <p className='mb-3 title'>Digital Agent <span>PRO</span></p>
                                     <h1 className='text_h1'>Больше <br />лояльных <br />клиентов</h1>
                                     <p className='mb-4 videocontent_p'>Система контроля и улучшения
                                             <br />качества ваших услуг</p>
