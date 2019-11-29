@@ -43,8 +43,9 @@ class Form extends React.Component{
                         </div>
                     </div>
                     <div className='col-md-4 col-form'>
-                        <p className='form_title'>Оставьте заявку<br />чтобы наш менеджер<br />связался с вами</p>
-                        <form onSubmit={this.handleSubmit}>
+                       {/*} 
+                                               <p className='form_title'>Оставьте заявку<br />чтобы наш менеджер<br />связался с вами</p>
+<form onSubmit={this.handleSubmit}>
                             <div class="form-group mt-4">
                                 <label for="exampleInput">ВАШЕ ИМЯ</label>
                                 <input type="text" onChange={this.handleChange1} class="form-control form-control-lg" id="exampleInput" name='name' required/>
@@ -59,7 +60,8 @@ class Form extends React.Component{
                             </div>
 
                             <button type="submit" class="btn w-100 mt-4">Оставить заявку</button>
-                        </form>
+        </form> */}
+<div class="powr-form-builder" id="0c1ea9c5_1575006467"></div>
                     </div>
                 </div>
             </div>
