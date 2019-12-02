@@ -1,12 +1,17 @@
 import React from 'react';
 
 class Tariffs extends React.Component{
-    state={isToggleOn: true};
+    state={isToggleOn: true, activeClass:true};
 
     handleClick=(event)=>{
         this.setState(state => ({
             isToggleOn: !state.isToggleOn
-          }));        
+          }));  
+        if(this.state.isToggleOn){
+            this.setState({activeClass:false})
+        } else{
+            this.setState({activeClass:true})
+        }   
     }
     render(){
         return(
@@ -16,12 +21,12 @@ class Tariffs extends React.Component{
                         <h4>Выберите тариф</h4>
                         <p className='mt-2 text-wrap content_p w-100 mt-3'>Дайте своему бизнесу качественное развитие</p>
                         <div className='toggle-content'>
-                            <label className='tog-l pr-4'>ЕЖЕМЕСЯЧНО</label>
+                            <label className={`tog-l tog-l-1 pr-4 ${this.state.activeClass ? 'non-yel':'yel'}`}>ЕЖЕМЕСЯЧНО</label>
                             <label className="switch" >
                             <input type="checkbox" onClick={this.handleClick} checked={this.state.isToggleOn} className="default"/>
                             <span className="slider round"></span>
                             </label>
-                            <label className='tog-l pl-4 tog-l-2'>ЗА 6 МЕСЯЦЕВ</label>
+                            <label className={`tog-l pl-4 tog-l-2 ${this.state.activeClass ? 'yel':'non-yel'}`}>ЗА 6 МЕСЯЦЕВ</label>
                         </div>
                     </div>
                 </div>
