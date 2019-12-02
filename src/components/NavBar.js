@@ -1,10 +1,19 @@
 import React from 'react';
 
 class NavBar extends React.Component{
-
+  state={activeClass:''};
+  componentDidMount(){
+    window.addEventListener('scroll', () => {
+       let activeClass = 'normal';
+       if(window.scrollY === 0){
+           activeClass = 'top';
+       }
+       this.setState({ activeClass });
+    });
+}
     render(){
         return(
-            <nav className="navbar fixed-top navbar-expand-md navbar-light navbar-inverse px-3">
+            <nav className={`navbar fixed-top navbar-expand-md navbar-light navbar-inverse px-3 ${this.state.activeClass}`}>
                 
                 <a className="navbar-brand" href="#"><img alt='Digital Agent' src='/logo2.png'/></a>
                 <button className="navbar-toggler order-last order-sm-2 order-md-1" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

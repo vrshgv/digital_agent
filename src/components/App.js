@@ -9,12 +9,13 @@ import Begin from './Begin';
 import Form from './Form';
 import Footer from './Footer';
 
+
 class App extends React.Component{
 
     render(){
         return(
         <div className='container-fluid px-0'>
-            <NavBar />
+            <NavBar />            
             <VideoContent />
             <Benefits />
             <ImageContent />

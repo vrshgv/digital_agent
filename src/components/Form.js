@@ -30,7 +30,7 @@ class Form extends React.Component{
     render(){
         return(
             <div className='container-fluid px-0 formcontent'>
-                <div className='row' id='form'>
+                <div className='row'>
                     <div className='col-md-8 col-descr text-left'>
                         <div className='content mx-auto'>
                         <p className='ul_title'>Платформа для повышения лояльности клиентов через обратную связь</p>
@@ -42,7 +42,7 @@ class Form extends React.Component{
                         </ul>
                         </div>
                     </div>
-                    <div className='col-md-4 col-form'>
+                    <div className='col-md-4 col-form'  id='form'>
                       <div className='cover'></div>
                        {/*} 
                                                <p className='form_title'>Оставьте заявку<br />чтобы наш менеджер<br />связался с вами</p>

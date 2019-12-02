@@ -3,6 +3,16 @@
         text-align: left !important;
     }
 }
+@media only screen and (max-width: 374px){
+    .text_h1{
+        font-size: 70px !important;
+    }
+}
+@media only screen and (max-width: 321px){
+    .text_h1{
+        font-size: 60px !important;
+    }
+}
 @media only screen and (max-width: 997px){
     .col_img .img{
         padding-top:10px !important;
@@ -54,34 +64,108 @@
         line-height: 23px !important;
     }
 }
-@media only screen and (min-width:1288px){
+
+@media only screen and (max-width:3840px){
+    .cover{
+        margin-top: 40rem !important;
+    }
+ }
+@media only screen and (max-width:1312px){
+    .cover{
+        margin-top: 43rem !important;
+    }
+ }
+
+@media only screen and (max-width:1288px){
     .cover{
         background: #eeeeef!important;
         position: absolute;
         top: 0;
         height: 7rem;
-        margin-top: 38rem !important;
+        margin-top: 43rem !important;
         width: 30rem;
         z-index: 2;  
     }
 }
-@media only screen and (max-width:821px){
-    .text_h1_b{
-        display: none;
+@media only screen and (max-width:1155px){
+    .cover{
+        margin-top: 42rem !important;
+        width: 34rem !important;
     }
-    .begincontent p{
-        display: none;
+ }
+@media only screen and (max-width:819px){
+    .begincontent .content{
+        float: left !important;
     }
 }
-@media only screen and (max-width:578){
-   nav .navbar-toggler{
-       order:2 !important;
-   }
-   nav .or{
-       order:1 !important;
-       -webkit-box-ordinal-group:2 !important;
-   }
-}
+
+@media only screen and (max-width:1044px){
+    .cover{
+        margin-top: 44.5rem !important;
+    }
+ }
+ @media only screen and (max-width:985px){
+    .cover{
+        margin-top: 48.5rem !important;
+    }
+ }
+ @media only screen and (max-width:969px){
+    .cover{
+        margin-top: 47rem !important;
+    }
+ }
+ @media only screen and (max-width:893px){
+    .cover{
+        margin-top: 45.5rem !important;
+    }
+ }
+ @media only screen and (max-width:835px){
+    .cover{
+        margin-top: 45rem !important;
+    }
+ }
+ @media only screen and (max-width:808px){
+    .cover{
+        margin-top: 44rem !important;
+    }
+ }
+ @media only screen and (max-width:805px){
+    .cover{
+        margin-top: 43.5rem !important;
+    }
+ }
+ @media only screen and (max-width:762px){
+    .cover{
+        margin-top: 38.5rem !important;
+        width: 34rem !important;
+    }
+ }
+ @media only screen and (max-width:615px){
+    .cover{
+        margin-top: 37.5rem !important;
+        width: 34rem !important;
+    }
+ }
+
+ @media only screen and (max-width:525px){
+    .cover{
+        margin-top: 37.5rem !important;
+        width: 34rem !important;
+    }
+ }
+ @media only screen and (max-width:520px){
+    .cover{
+        margin-top: 40.5rem !important;
+        width: 34rem !important;
+    }
+ }
+ @media only screen and (max-width:415px){
+    .cover{
+        margin-top: 43.5rem !important;
+        width: 34rem !important;
+    }
+ }
+
 @font-face {
     font-family: PTRoot;
     font-weight: 700;
@@ -103,6 +187,13 @@
     font-weight: 400;
     src: url("/PT Root UI_Regular.otf") format("opentype");
 }
+html {
+    scroll-behavior: smooth;
+  }
+.normal{
+    box-shadow: 0 2px 10px 0 rgba(37, 44, 50, 0.1);
+    background-color: rgba(255, 255, 255);
+}
 .img_d{
     width: 204px;
 }
@@ -111,7 +202,15 @@ body{
     font-family:'PTRoot', sans-serif;
 
 }
-
+.btn{
+    box-shadow: 0 4px 12px 0 rgba(238, 198, 67, 0.4);
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
 nav{
     min-height: 112px;
     font-weight: bold;
@@ -121,7 +220,16 @@ nav{
     background-color: white;
     letter-spacing: 0.5px !important;
 }
-
+.nav .btn{
+    padding: 16px 26px !important;
+}
+.covered{
+    font-family: 'PTRoot' !important;
+    font-weight: 300;
+}
+.videocontent .btn{
+    padding: 16px 37.5px !important;
+}
 .nav-link{
     color: #252C32 !important;
     padding: 10px;
@@ -189,15 +297,21 @@ nav .pro-b{
     margin-top:75px !important;
 }
 .benefitscontent .content_p{
-    max-width: 570px;
     font-size: 17px;
-    line-height: 22px;
-    text-align: center;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    padding-top: 18px;
 }
 .benefitscontent h4{
-    font-weight: 500;
     font-size: 34px;
-    line-height: 41px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
     text-align: center;
 }
 .imagecontent p{
@@ -211,6 +325,22 @@ nav .pro-b{
 .content_d{
     margin:0 auto;
     max-width: 570px;
+}
+.imagecontent .content_d h2{
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+.imagecontent .content_d{
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
 }
 .imagecontent_r{
     margin-top:70px;
@@ -304,11 +434,24 @@ small{
     transition-duration: 0.4s;
 }
 .card:hover{
-    background: rgba(255, 255, 255, 0.0001);
-    box-shadow: 0px 2px 10px rgba(37, 44, 50, 0.1);
-    background-color: #eaeaeb;
+    box-shadow: 0 2px 10px 0 rgba(37, 44, 50, 0.1);
+    background-color: rgba(255, 255, 255, 0);
     background-image: url('/box-header.svg');
     background-repeat: no-repeat;
+}
+.card .btn{
+    transition: 0.4s;
+}
+.card:hover .btn{
+    background-color: #3ec25f;
+}
+.bonuses h4{
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
 }
 .bonus_h{
     font-weight: 500;
@@ -365,8 +508,8 @@ small{
     overflow: hidden;
 }
 .formcontent .col-form{
-    background: #eeeeef;
-box-shadow: -10px 0px 20px rgba(37, 44, 50, 0.05);
+    box-shadow: -10px 0 20px 0 rgba(37, 44, 50, 0.05);
+  background-color: rgba(255, 255, 255, 0);
 
 }
 .formcontent ul{
@@ -381,10 +524,13 @@ box-shadow: -10px 0px 20px rgba(37, 44, 50, 0.05);
     letter-spacing: 0.5px;
 }
 .li_title{
-    margin-top:30px;
     font-size: 22px;
-    line-height: 28px;
-    font-weight: 500;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    padding-top: 38px;
 }
 .li_content{
     padding-top:10px;
@@ -402,8 +548,14 @@ box-shadow: -10px 0px 20px rgba(37, 44, 50, 0.05);
 .col-form .btn, nav .nav-link.pro-b{
     height: 48px !important;
 }
+form{
+    font-family: 'PTRoot';
+}
 .formcontent .content{
     max-width: 670px;
+}
+.formcontent .col-descr .content{
+    padding-top: 32px;
 }
 .formcontent label{
     font-weight: 500;
@@ -434,8 +586,11 @@ footer a:hover{
     text-decoration: none;
 }
 footer p{
-    font-size: 15px;
-    line-height: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
 }
 footer h6{
     font-size: 15px;
@@ -474,11 +629,11 @@ footer .first-d{
     height: 24px;
   }
   .cover{
-    background: #eeeeef!important;
+    background-color: rgba(255, 255, 255) !important;
     position: absolute;
     top: 0;
     height: 7rem;
-    margin-top: 40.5rem;
+    margin-top: 43.5rem;
     width: 30rem;
     z-index: 2;  
   }
@@ -496,8 +651,8 @@ footer .first-d{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #eeeeef;
-    box-shadow: 0px 2px 10px rgba(37, 44, 50, 0.1);    -webkit-transition: .4s;
+    box-shadow: 0 2px 10px 0 rgba(37, 44, 50, 0.1);
+    background-color: rgba(255, 255, 255, 0);
     transition: .4s;
   }
   
@@ -522,8 +677,9 @@ footer .first-d{
       color:#EEC643;
   }
   .toggle-content input.default:checked + .slider {
-    background-color: #ccc;
-  }
+    box-shadow: 0 2px 10px 0 rgba(37, 44, 50, 0.1);
+    background-color: rgba(255, 255, 255, 0);
+    }
   .toggle-content input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
   }
