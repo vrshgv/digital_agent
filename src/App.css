@@ -328,7 +328,7 @@ nav .btn, .videocontent .btn, .tariffscontent .btn, .formcontent .btn{
     max-width: 117px;
 }
 .text_h1_b{
-    font-weight: 300;
+    font-weight: 200;
 }
 .navbar-brand{
     margin-left: 25px;
@@ -378,7 +378,7 @@ nav .pro-b{
     letter-spacing: normal;
     padding-top: 18px;
 }
-.benefitscontent h4{
+.benefitscontent .h4{
     font-size: 34px;
     font-weight: normal;
     font-stretch: normal;
@@ -390,6 +390,7 @@ nav .pro-b{
 .imagecontent p{
     font-size: 22px;
     line-height: 28px;
+    font-weight: 400;
 }
 .content_p{
     text-align: center;
@@ -399,19 +400,16 @@ nav .pro-b{
     margin:0 auto;
     max-width: 570px;
 }
-.imagecontent .content_d h2{
+.imagecontent .content_d .h2{
     font-size: 50px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
+    font-weight: 200;
     line-height: 1.2;
     letter-spacing: normal;
 }
 .imagecontent .content_d{
     font-size: 22px;
-    font-weight: normal;
     font-stretch: normal;
-    font-style: normal;
+    font-weight: 400;
     line-height: 1.27;
     letter-spacing: normal;
 }
@@ -431,6 +429,14 @@ nav .pro-b{
 .imagecontent .text-wrap{
     margin-top:20px;
 }
+
+.imagecontent .i1, .imagecontent .i3{
+    padding-right: 110px;
+}
+.imagecontent .i2, .imagecontent .i4{
+    padding-left: 110px;
+}
+
 .videocontent .content_d p{
     font-size: 20px;
 }
@@ -453,7 +459,7 @@ iframe{
     overflow: hidden;
 }
 .text_h1{
-    font-weight: 300;
+    font-weight: 200;
     font-size: 80px;
     line-height: 80px;
     color: #252C32;
@@ -584,7 +590,7 @@ small{
     color: #FFFFFF;
     float: right;
     margin-top:115px;
-    padding-right: 60px;
+    padding-right: 90px;
 }
 .container-fluid{
     overflow: hidden;

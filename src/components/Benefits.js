@@ -6,7 +6,7 @@ class Benefits extends React.Component{
                 <div className='container benefitscontent' id='benefits'>
                         <div className='row'>
                             <div className='col text-center'>
-                                <h4>Преимущества</h4>
+                                <p className='h4'>Преимущества</p>
                                 <p className='mt-3 text-wrap content_p'>Каждый лояльный клиент приводит еще новых двух.<br />
 Своевременное реагирование на проблемы, позволит решить их в<br /> зародыше. </p>
                             </div>

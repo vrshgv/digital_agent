@@ -18,7 +18,7 @@ class Footer extends React.Component{
         <p><a href="#tariffs">Цены</a></p>
       </div>
 
-      <div className="col-md-3 no-h col-lg-2 col-xl-2 mx-auto mb-4">
+      <div className="col-md-3 no-h col-lg-3 col-xl-3 mx-auto mb-4">
         <p><a href="#">Правила использования</a></p>
         <p><a href="#">Политика конфиденциальности</a></p>
         <p><a href="#">Публичная оферта</a></p>
