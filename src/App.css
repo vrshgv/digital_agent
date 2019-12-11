@@ -60,7 +60,7 @@
 @media only screen and (max-width:900px){
     .text_h1_b{
         float: right;
-        font-size: 18px !important;
+        font-size: 17px !important;
         line-height: 23px !important;
     }
 }
@@ -576,10 +576,73 @@ small{
 .begincontent .row{
     background-image: url('/phoneback.svg');
     height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+@media only screen and (min-width:1600px){
+    .begincontent .row{
+      height: 53.5625rem;
+    }
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 10.625rem !important;
+    }
+ }
+ @media only screen and (max-width:3480px){
+    
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 34.425rem !important;
+    }
+ }
+ @media only screen and (max-width:1950px){
+    
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 30.425rem !important;
+    }
+ }
+ 
+ @media only screen and (max-width:1930px){
+    
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 28.025rem !important;
+    }
+ }
+ @media only screen and (max-width:1910px){
+    
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 24.025rem !important;
+    }
+ }
+ @media only screen and (max-width:1850px){
+    
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 20.025rem !important;
+    }
+ }
+ @media only screen and (max-width:1750px){
+    
+    .begincontent .content{
+        margin-top: 14.0625rem !important;
+    padding-right: 10.025rem !important;
+    }
+ }
+ @media only screen and (max-width:1594px){
+    
+    .begincontent .content{
+        margin-top: 8.0625rem !important;
+        padding-right: 120px !important;
+
+    }
+ }
 .text_h1_b{
-    font-size: 60px;
-    line-height: 64px;
+    font-size: 3.75rem;
+    line-height: 4rem;
 }
 .begincontent p{
     font-size: 15px;
@@ -589,8 +652,8 @@ small{
 .begincontent .content{
     color: #FFFFFF;
     float: right;
-    margin-top:115px;
-    padding-right: 90px;
+    margin-top:135px;
+    padding-right: 120px;
 }
 .container-fluid{
     overflow: hidden;
